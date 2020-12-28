@@ -3,7 +3,7 @@ A puzzle for your Philips Hue Smart Bulbs and iOS device.
 
 ## Developing a Hue Light Puzzle iOS App
 
-My goal is to develop an iOS App that connects with Philips Hue Lights and uses the lights to show a puzzle. The user would use the app to solve the puzzle and the app would change the lights to match the current state of the puzzle.
+My goal is to develop an iOS app that connects with Philips Hue Lights and uses the lights to show a puzzle. The user would use the app to solve the puzzle and the app would change the lights to match the current state of the puzzle.
 
 I already have a developer account with Apple and Xcode which is needed to develop iOS apps. I've never worked with Philips Hue lights, so first I found their developer site and signed up for a developer account.
 
