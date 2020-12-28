@@ -18,7 +18,7 @@ https://\<bridge ip address\>/debug/clip.html
 
 I immediately got blocked on step 2 of the 3 easy steps to get started which was to obtain the IP address of the bridge. I was frustrated that I couldn't find it so I gave up working on the project to focus on my classes. Going back to step 2, there are multiple ways of obtaining the IP address for the bridge, so I used a different method this time (using the official Philips Hue app) with success.
 
-The next step was visiting the API debug tool in a web browser at: `https://\<bridge ip address\>/debug/clip.html`. The debugger lets you create HTTPS calls. This allows me to develop the code for the lights separately from the iOS app.
+The next step was visiting the API debug tool in a web browser at: `https://<bridge ip address>/debug/clip.html`. The debugger lets you create HTTPS calls. This allows me to develop the code for the lights separately from the iOS app.
 
 #### Use GET to query available resources
 If you try to use the GET command, you will get an error message like:
@@ -52,9 +52,9 @@ The bridge will randomly generate a username for you. To get this username you h
 #### Use PUT to change a setting
 
 ##### Test 1: turning a light on and off
-Perform another GET command to get info about a light with the url: `https://\<bridge ip address\>/api/\<username\>/lights/1`
+Perform another GET command to get info about a light with the url: `https://<bridge ip address>/api/<username>/lights/1`
 
-The JSON response shows all the resources that light has. My lights are on right now, so the "on" attribute is set to "true". To test turning off the light, I will use a PUT command with the url: `https://\<bridge ip address\>/api/\<username\>/lights/1/state` and a JSON body of `{"on":false}`.
+The JSON response shows all the resources that light has. My lights are on right now, so the "on" attribute is set to "true". To test turning off the light, I will use a PUT command with the url: `https://<bridge ip address>/api/<username>/lights/1/state` and a JSON body of `{"on":false}`.
 
 I get the JSON response:
 ```
