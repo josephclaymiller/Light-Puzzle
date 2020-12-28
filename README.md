@@ -1,4 +1,4 @@
-# Light-Puzzle
+# Light Puzzle
 A puzzle for your Philips Hue Smart Bulbs and iOS device.
 
 ## Developing a Hue Light Puzzle iOS App
